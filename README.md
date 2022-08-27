@@ -1,2 +1,2 @@
 # bookself
-Save your red books
+Save your read books
