@@ -95,7 +95,7 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 85%;
+  width: 100%;
   margin: auto;
 }
 @media (min-width: 800px) {
@@ -105,7 +105,7 @@ form button:hover {
 }
 @media (min-width: 1500px) {
   .todo-container {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -120,6 +120,7 @@ form button:hover {
 }
 
 .todo {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,14 +129,10 @@ form button:hover {
   padding: 10px 8px;
   border-radius: 8px;
 }
-
-.todo-up {
-  opacity: 1;
-  transition: all 300ms ease;
-}
-
-.todo li {
-  flex: 1;
+@media (min-width: 800px) {
+  .todo {
+    width: 35%;
+  }
 }
 
 .todo-item .judul {
@@ -257,15 +254,4 @@ select {
   background-color: transparent;
   font-size: 1.5rem;
   cursor: pointer;
-}
-
-footer {
-  font-style: italic;
-  color: gray;
-  padding: 1.5rem;
-  text-align: center;
-}
-footer a {
-  text-decoration: none;
-  color: gray;
 }/*# sourceMappingURL=main.css.map */
